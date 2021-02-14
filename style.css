@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: fantasy;
+}
+.whole{
+    width: 100%;
+    min-height: 100vh;
+    background-image: url(images/WHT.png);
+    background-position: center;
+    background-size: cover;
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+    color: black;
+}
+.header{
+    height: 12%;
+    display: flex;
+    align-items: center;
+    color: black;
+}
+.logoIcon{
+    margin-top: auto;
+   width: 50px;
+    cursor: pointer;
+    padding: 20px 0px;
+
+}
+.listIcon{
+    width: 35px;
+    cursor: pointer;
+    align-content: right;
+
+}
+nav{
+    flex: 1;
+    text-align: right;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 30px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 14px;
+}
+nav ul li a:hover{
+    color: rgba(0, 0, 0, 0.61);
+}
+.row{
+    display: flex;
+    height: 20%;
+    align-items: center;
+    font: #000;
+
+}
+.col-1{
+    flex: 30%;
+
+}
+h1{
+    color: #000;
+    font-size: 75px;
+
+}
+p{
+    color: #000;
+    font-size: 25px;
+    line-height: 15px;
+
+}
+button{
+    width: 180px;
+    color: #fff;
+    font-size: 12px;
+    padding: 12px 0;
+    background: rgb(59, 59, 59);
+    border: 0;
+    border-radius: 30px;
+    outline: none;
+    margin-top: 30px;
+    margin-left: 30px;
+
+}
+.card{
+    width: 200px;
+    height: 230px;
+    display: inline-flex;
+    border-radius: 20px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    background-image: url(images/WHT.png);
+    background-position: right;
+    background-size: cover;
+    transition: transform 0.5s;
+    align-items: right;
+}
+.card1{
+    background-image: url(images/WHT.png);
+}
+.card2{
+    background-image: url(images/BLK.png);
+}
+.card3{
+    background-image: url(images/WHT.png); 
+}
+.card4{
+    background-image: url(images/BLK.png);
+}
+
+.card:hover{
+    transform: translateY(-10px)
+}
